@@ -76,7 +76,7 @@ body {
 }
 
 .container .tools-box .box button {
-  background: radial-gradient(
+  background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(97, 186, 255, 1) 0%,
     rgba(166, 239, 253, 1) 90.1%,
@@ -94,4 +94,37 @@ body {
 
 button:hover {
   background: blue;
+}
+
+.cointainer .tools-box .box select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(97, 186, 255, 1) 0%,
+    rgba(166, 239, 253, 1) 90.1%,
+  );
+  color: #fff;
+  border: none;
+  outline: none;
+  max-width: 300px;
+}
+
+.container .tools-box .box select option {
+  background: #222;
+  color: #fff;
+}
+
+.container .tools-box .box .box-3 {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(97, 186, 255, 1) 0%,
+    rgba(166, 239, 253, 1) 90.1%,
+  );
+  color: #fff;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  border-radius: 0.5rem;
 }
