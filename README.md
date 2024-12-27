@@ -4,7 +4,7 @@ This is a React application that converts text to audio.
 
 ## Repository URL
 
-You can view the project on GitHub [here](https://github.com/Elvisthegreat/text-to-audio-app).
+You can view the project on GitHub [here](https://text-to-audio-aormxdwen-elvis-blesssings-projects.vercel.app/).
 
 ## Features
 
@@ -16,4 +16,4 @@ You can view the project on GitHub [here](https://github.com/Elvisthegreat/text-
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Elvisthegreat/text-to-audio-app.git
+   git clone https://text-to-audio-aormxdwen-elvis-blesssings-projects.vercel.app/
