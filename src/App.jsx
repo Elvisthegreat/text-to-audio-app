@@ -4,7 +4,7 @@ import "./index.css";
 const App = () => {
   const [text, setText] = useState("");
   const [voices, setVoices] = useState([]);
-  const [selectedVoice, setSlectedVoice] = useState(null);
+  const [selectedVoice, setSelectedVoice] = useState(null);
   const [rate, setRate] = useState(1);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const App = () => {
       const synthVoices = synth.getVoices();
       if (synthVoices.length > 0) {
         setVoices(synthVoices);
-        setSlectedVoice(synthVoices[0]?.name || null);
+        setSelectedVoice(synthVoices[0]?.name || null);
       }
 
       if (synth.onvoiceschanged !== undefined) {
@@ -87,7 +87,7 @@ const App = () => {
           {selectedVoice && (
             <select
               value={selectedVoice}
-              onChange={(e) => setSlectedVoice(e.target.value)}
+              onChange={(e) => setSelectedVoice(e.target.value)}
             >
               {voices.length > 0 ? (
                 voices.map((voice) => (
